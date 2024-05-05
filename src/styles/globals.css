@@ -1,0 +1,36 @@
+/* Reset default browser styles */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a default font and size */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Set a default background color */
+body {
+  background-color: #f0f0f0;
+}
+
+/* Add styles to the root element of your application */
+#__next {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Apply global styles to links */
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Add any other global styles you need */
